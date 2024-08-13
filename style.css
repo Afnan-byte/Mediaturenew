@@ -1,0 +1,224 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-width: 180px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #B7773A;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption h1, .carousel-caption h3, .carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ddd;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.welcome-sec h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #555;
+}
+
+.welcome-sec .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background-color: #B7773A;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #a66630;
+    color: #fff;
+}
+
+.achievement {
+    text-align: center;
+}
+
+.achievement h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #B7773A;
+}
+
+.achievement p {
+    font-size: 18px;
+    color: #777;
+}
+
+.services .property-item img {
+    transition: transform 0.3s;
+}
+
+.services .property-item:hover img {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #B7773A;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    color: #B7773A;
+}
+
+.services .property-item {
+    transition: transform 0.3s ease;
+}
+
+.services .property-item:hover {
+    transform: scale(1.05);
+}
+
+.property-item img {
+    border-radius: 8px;
+}
+
+.achievement {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.achievement h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.achievement p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.services .text-content p {
+    color: #6c757d;
+}
+
+.property-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.property-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.property-item:hover .bg-overlay {
+    opacity: 1;
+}
+
+.property-item img {
+    transition: transform 0.3s;
+}
+
+.property-item:hover img {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #B7773A;
+}
+
+p {
+    font-size: 18px;
+    color: #777;
+}
+
+.text-dark {
+    color: #333 !important;
+}
+
+.text-dark:hover {
+    color: #B7773A !important;
+}
+.card {
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-body img {
+    border: 3px solid #B7773A;
+}
